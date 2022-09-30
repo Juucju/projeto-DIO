@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+
+    <script src="https://kit.fontawesome.com/2a076b2e69.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            background-color: #FAFAFA;
+        }
+        .imagemInsta img{
+            width: 600px;            
+        }
+        .imagemInsta {
+            margin-left: 10%;
+        }
+        .mainPage {
+            text-align: center;
+            margin-right: auto;
+            margin-top:50px;
+            
+        }
+        #instagramLogin img {
+            margin:40px 0px 20px 0px ;
+
+        } 
+        #instagramLogin {
+            border: #DBDBDB 1px solid;
+            width: 350px;
+            height: 396px;
+            background-color: #FFFFFF
+        }
+        #instagramLogin li {
+            list-style: none;
+            text-align: center;
+        }
+        #instagramLogin input{
+            background-color: #FAFAFA;
+            border-radius: 2px;
+            border-color: rgb(214, 214, 214);
+            border-style: solid;
+            border-width: 1px;
+            width: 250px;
+            height: 20px;
+            padding: 9px 0px 7px 8px;
+            margin: 3px;
+        }
+        #instagramLogin button{
+            height: 30px;
+            width: 260px;
+            border: 0px solid  #000000;
+            border-radius: 4px;
+            margin: 8px 40px 8px 40px;
+            color: #FFFFFF;
+            background-color: rgb(50, 164, 230);
+        }
+        #instagramLogin i {
+            color:#385185;
+            width: 30px;
+            height: 30px;
+        }
+        #facebook {
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            color: #00376B;
+        }
+        #lostPassword {
+            font-size: 12px;
+            text-decoration: none;
+            color: #00376B;
+        }
+
+        #instagramRegister {
+            display: inline-block;
+            border: #DBDBDB 1px solid;
+            width: 350px;
+            height: 63px;
+            margin-top: 10px;
+            background-color: #FFFFFF;
+
+        }
+        #instagramRegister a {
+            text-decoration: none;
+            color: #0095F6;
+            font-weight: 600;
+            
+        }
+        #instagramRegister p {
+            margin: 20px 15px 15px 15px
+        }
+        #instagramApp img{
+            display: inline-block
+        }
+        #instagramApp img {
+            width: 136px;
+        }
+        #ou {
+            font-size: 0;
+            margin: 10px 0px 30px 0px;
+        }
+        #ou div {
+            font-size: 13px;
+            color: #8e8e8e;
+            font-weight: 600;
+            display: inline-block;
+        }
+        .lines {
+            margin: 0 10px 5px 10px;
+            width: 106.516px;
+            border: 1px solid  #DBDBDB;
+        }
+               
+       </style>
+</head>
+<body>
+    <div class="imagemInsta">
+        <img src="Assets/instagram-celular.png" alt="celular do Instagram">
+    </div>
+    <div class="mainPage">
+        <div id="instagramLogin">
+            <img src="assets/instagram logo.png" alt="Instagram logo">
+            <form>
+                <input required type="email" class="email" placeholder="Telefone, nome de usuário ou email"><br>
+                <input required type="password" class="password" placeholder="Senha"><br>
+                <button type="submit">Entrar</button>
+            </form>
+            <div id="ou">
+                <div class="lines"></div><div>OU</div><div class="lines"></div>
+            </div>
+
+                <p><i class="fa-brands fa-square-facebook"></i><a id="facebook" href="#">Entrar com o Facebook</a></p>
+                <p><a id="lostPassword" href="#">Esqueceu a senha?</a></p>
+        </div>
+        <div id="instagramRegister">
+            <p>Não tem uma conta?<a href="#"> Cadastre-se</a></p>
+        </div>
+        <div id="instagramApp">
+            <p>Obtenha o aplicativo.</p>
+            <a href="#"><img src="assets/apple-button.png"></a>
+            <a href="#"><img src="assets/googleplay-button.png"></a>
+        </div>
+    </div>
+</body>
+</html>
